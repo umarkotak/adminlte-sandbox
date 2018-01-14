@@ -80,7 +80,8 @@ function demo4(){
     gender: 'male'
   }
 
-  document.getElementById("demo4").innerHTML = z;
+  // document.getElementById("demo4").innerHTML = z;
+  document.getElementById("demo4").innerHTML = z.name;
 
 }
 </script>
